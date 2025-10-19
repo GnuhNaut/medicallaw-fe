@@ -20,7 +20,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    // lng: 'vi',
+    lng: 'vi',
     // Ngôn ngữ mặc định nếu không phát hiện được ngôn ngữ nào
     // Hoặc nếu ngôn ngữ được phát hiện không được hỗ trợ (vd: 'fr', 'de')
     fallbackLng: 'en',
