@@ -253,8 +253,45 @@
       "amount": "SỐ TIỀN:",
       "finalNote": "Vui lòng",
       "finalNoteBold": "nhập chính xác nội dung",
-      "finalNoteEnd": ", thanh toán xong vui lòng liên hệ lại bộ phận chăm sóc khách hàng."
+      "finalNoteEnd": ", thanh toán xong vui lòng liên hệ lại bộ phận chăm sóc khách hàng.",
+      "scanToPay": "Quét mã để thanh toán",
+        "transferContentLabel": "Nội dung chuyển khoản (bắt buộc):",
+        "errorFetchDetails": "Không thể tải thông tin thanh toán hợp lệ.",
+        "errorFetchFailed": "Lỗi kết nối hoặc máy chủ không phản hồi.",
+        "invalidId": "ID đăng ký không hợp lệ trong URL.",
+        "noPaymentData": "Không tìm thấy dữ liệu thanh toán."
     },
+    "memberPage": {
+    "genericBackendError": "Thông tin không hợp lệ hoặc chưa hoàn tất đăng ký.",
+    "errorFetchDetails": "Không thể tải thông tin thành viên. Dữ liệu trả về không đúng định dạng.",
+    "errorFetchFailed": "Lỗi kết nối máy chủ. Vui lòng thử lại sau.",
+    "invalidId": "ID thành viên không hợp lệ.",
+    "notificationTitle": "Thông báo",
+    "backHome": "Quay về trang chủ",
+    "ticketTitle": "Thông Tin Tham Dự Hội Nghị",
+    "noData": "Không có thông tin để hiển thị."
+  },
+  "memberTicket": {
+    "label": {
+      "name": "Họ và Tên",
+      "position": "Chức vụ / Đơn vị",
+      "members": "Số lượng",
+      "email": "Email",
+      "phone": "Điện thoại",
+      "address": "Địa chỉ",
+      "field": "Lĩnh vực",
+      "guestType": "Loại đăng ký",
+      "question": "Câu hỏi",
+      "ticketId": "Mã Thành Viên",
+      "registeredAt": "Ngày đăng ký"
+    },
+    "ticketInfo": "Thông Tin Tham Dự",
+    "scanInfo": "Quét mã khi check-in",
+    "ticketStatusValues": {
+      "not_used": "Chưa sử dụng",
+      "used": "Đã sử dụng"
+    }
+  },
     "fab": {
       "call": "Gọi",
       "zalo": "Zalo",

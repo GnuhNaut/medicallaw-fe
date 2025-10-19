@@ -98,7 +98,7 @@ const MemberPage = () => {
   if (memberRegistration) {
     return (
       <main className="container mx-auto px-4 py-16 md:py-24 flex flex-col items-center">
-         <h1 className="text-3xl md:text-4xl font-bold text-center text-brand-navy mb-8">{t('memberPage.ticketTitle', 'Vé Tham Dự Hội Nghị')}</h1> {/* Key mới */}
+         {/* <h1 className="text-3xl md:text-4xl font-bold text-center text-brand-navy mb-8">{t('memberPage.ticketTitle', 'Vé Tham Dự Hội Nghị')}</h1> Key mới */}
         <MemberTicket memberInfo={memberRegistration} />
         {/* Có thể thêm nút In vé hoặc Lưu vé ở đây */}
       </main>

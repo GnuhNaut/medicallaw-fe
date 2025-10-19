@@ -253,8 +253,45 @@
       "amount": "AMOUNT:",
       "finalNote": "Please",
       "finalNoteBold": "enter the exact transfer content",
-      "finalNoteEnd": ". After payment, kindly contact our support team."
+      "finalNoteEnd": ". After payment, kindly contact our support team.",
+      "scanToPay": "Scan QR to pay",
+    "transferContentLabel": "Transfer Content (required):",
+    "errorFetchDetails": "Could not load valid payment information.",
+    "errorFetchFailed": "Connection error or server did not respond.",
+    "invalidId": "Invalid registration ID in URL.",
+    "noPaymentData": "Payment data not found."
     },
+    "memberPage": {
+    "genericBackendError": "Invalid information or registration not completed.",
+    "errorFetchDetails": "Could not load member information. Invalid data format received.",
+    "errorFetchFailed": "Server connection error. Please try again later.",
+    "invalidId": "Invalid member ID.",
+    "notificationTitle": "Notification",
+    "backHome": "Back to Homepage",
+    "ticketTitle": "Conference Attendance Information",
+    "noData": "No information to display."
+  },
+  "memberTicket": {
+    "label": {
+      "name": "Full Name",
+      "position": "Position / Company",
+      "members": "Attendees",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "field": "Field",
+      "guestType": "Registration Type",
+      "question": "Question",
+      "ticketId": "Member ID",
+      "registeredAt": "Registration Date"
+    },
+    "ticketInfo": "Attendance Member Information",
+    "scanInfo": "Scan QR code at check-in",
+    "ticketStatusValues": {
+      "not_used": "Not Used",
+      "used": "Used"
+    }
+  },
      "fab": {
       "call": "Hotline",
       "zalo": "Zalo",

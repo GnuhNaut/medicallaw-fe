@@ -77,21 +77,21 @@ const PaymentPage = () => {
   }
 
   // Hiển thị lỗi
-  if (error) {
-    return <div className="text-center py-40 text-red-600 text-lg font-semibold">{error}</div>;
-  }
+  // if (error) {
+  //   return <div className="text-center py-40 text-red-600 text-lg font-semibold">{error}</div>;
+  // }
 
   // Nếu không loading, không lỗi, nhưng không có data (trường hợp hiếm)
-  if (!paymentData) {
-     return <div className="text-center py-40 text-orange-600 text-lg font-semibold">{t('paymentPage.noPaymentData', 'Không tìm thấy dữ liệu thanh toán.')}</div>;
-  }
+  // if (!paymentData) {
+  //    return <div className="text-center py-40 text-orange-600 text-lg font-semibold">{t('paymentPage.noPaymentData', 'Không tìm thấy dữ liệu thanh toán.')}</div>;
+  // }
 
   // Định dạng số tiền từ API
   const formattedAmount = new Intl.NumberFormat(isVietnamese ? 'vi-VN' : 'en-US', {
     style: 'currency',
-    currency: paymentData.currency || (isVietnamese ? 'VND' : 'USD'), // Ưu tiên currency từ API
+    currency: paymentData?.currency || (isVietnamese ? 'VND' : 'USD'), // Ưu tiên currency từ API
     minimumFractionDigits: 0
-  }).format(paymentData.amount);
+  }).format(paymentData?.amount);
 
   // --- Render Giao Diện ---
   return (
@@ -114,7 +114,7 @@ const PaymentPage = () => {
             <div className="relative p-2 border-2 border-dashed border-gray-300 rounded-lg self-center mb-4">
               <img
                 id="qr-image"
-                src={paymentData.qrCodeUrl} // Lấy URL QR từ state paymentData
+                src={paymentData?.qrCodeUrl} // Lấy URL QR từ state paymentData
                 alt="Payment QR Code"
                 className="w-56 h-56 md:w-64 md:h-64 object-contain" // Kích thước QR
                 onError={(e) => e.target.src = '/assets/imgs/placeholder-qr.png'} // Ảnh thay thế nếu load lỗi
@@ -123,7 +123,7 @@ const PaymentPage = () => {
             {/* Nút tải QR */}
             <a
               id="download-qr-btn"
-              href={paymentData.qrCodeUrl}
+              href={paymentData?.qrCodeUrl}
               download={`HIMA2025_PaymentQR_${ticket_id}.png`}
               className="mt-4 mb-6 inline-flex items-center justify-center w-fit mx-auto bg-green-600 text-white font-bold py-2 px-5 rounded-lg hover:bg-green-700 transition-all duration-300 shadow"
             >
@@ -131,7 +131,7 @@ const PaymentPage = () => {
               <span>{t('paymentPage.downloadQR')}</span>
             </a>
             {/* Nội dung chuyển khoản (nếu có) */}
-            {paymentData.transferContent && (
+            {paymentData?.transferContent && (
                  <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded text-blue-800 text-sm">
                    <p className="font-semibold mb-1">{t('paymentPage.transferContentLabel', 'Nội dung chuyển khoản (bắt buộc):')}</p>
                    <div className="flex items-center justify-between gap-2">
