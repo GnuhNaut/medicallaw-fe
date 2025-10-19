@@ -1,0 +1,247 @@
+{
+    "siteTitle": "HỘI NGHỊ QUỐC TẾ VỀ MUA BÁN VÀ SÁP NHẬP (M&A) TRONG NGÀNH Y TẾ NĂM 2025 (Lần thứ 1) - HIMA 2025",
+    "header": {
+      "about": "Giới Thiệu",
+      "speakers": "Diễn Giả",
+      "agenda": "Chương Trình",
+      "tickets": "Đăng ký thành viên",
+      "payment": "Thanh toán",
+      "register": "Đăng Ký",
+      "lang": "English"
+    },
+    "hero": {
+      "title": "HỘI NGHỊ QUỐC TẾ VỀ MUA BÁN VÀ SÁP NHẬP (M&A) TRONG NGÀNH Y TẾ NĂM 2025",
+      "subtitle": "HIMA 2025",
+      "tagline": "Minh bạch pháp lý – Giá trị Y khoa",
+      "firstTime": "(Lần thứ 1)",
+      "registerButton": "Đăng Ký Thành Viên",
+      "days": "Ngày",
+      "hours": "Giờ",
+      "minutes": "Phút",
+      "seconds": "Giây",
+      "eventOver": "Sự kiện đã diễn ra!"
+    },
+    "about": {
+      "title": "Giới thiệu",
+      "conferenceTitle": "Về Hội Nghị",
+      "conferenceDescription": "HỘI NGHỊ QUỐC TẾ VỀ MUA BÁN VÀ SÁP NHẬP (M&A) TRONG NGÀNH Y TẾ NĂM 2025 - HIMA 2025 (Lần thứ 1) do Medicallaw tổ chức, quy tụ hơn 200 lãnh đạo Bộ ngành, tập đoàn y tế, quỹ đầu tư, công nghệ y sinh và xét nghiệm gene, các doanh nghiệp về mỹ phẩm, dinh dưỡng, sữa,… và chuyên gia quốc tế. Sự kiện nhằm minh bạch pháp lý, chuẩn hóa quy trình M&A trong lĩnh vực y tế, hướng đến mục tiêu IPO và phát triển bền vững.",
+      "projectsTitle": "Dự Án Tiêu Biểu",
+      "featuredProjects": [
+    { "name": "BỆNH VIỆN ĐA KHOA HOÀN MỸ - ĐÀ NẴNG", "image": "/assets/imgs/benhvien/hoanmy.png" },
+    { "name": "BỆNH VIỆN ĐA KHOA QUỐC TẾ VINMEC NHA TRANG", "image": "/assets/imgs/benhvien/nhatrang.png" },
+    { "name": "BỆNH VIỆN ĐA KHOA QUỐC TẾ VINMEC ĐÀ NẴNG", "image": "/assets/imgs/benhvien/vinmec.jpg" },
+    { "name": "BỆNH VIỆN ĐA KHOA PHƯƠNG ĐÔNG", "image": "/assets/imgs/benhvien/phuongdong.png" },
+    { "name": "BỆNH VIỆN MẮT SÀI GÒN - QUY NHƠN", "image": "/assets/imgs/benhvien/qn.png" },
+    { "name": "BỆNH VIỆN ĐA KHOA THIỆN HẠNH", "image": "/assets/imgs/benhvien/thienhanh.png" },
+    { "name": "BỆNH VIỆN ĐẠI HỌC Y DƯỢC HOÀNG ANH GIA LAI", "image": "/assets/imgs/benhvien/HAGL-01.png" },
+    { "name": "BỆNH VIỆN ĐA KHOA TTH HÀ TĨNH", "image": "/assets/imgs/benhvien/TTH-01.png" },
+    { "name": "BỆNH VIỆN TAI MŨI HỌNG MIỀN TRUNG", "image": "/assets/imgs/benhvien/ne.jpg" }
+  ]
+    },
+    "keyInfo": {
+      "time": "Thời gian",
+      "date": "21/11/2025",
+      "venue": "Địa điểm",
+      "location": "Hội trường Thăng Long Ballroom, Tầng 7, Khách sạn Meliá, 44B Lý Thường Kiệt, Phường Cửa Nam, Thành phố Hà Nội.",
+      "mediaSponsor": "Đơn vị bảo trợ truyền thông",
+      "mediaName": "Báo Sức khỏe & Đời sống - Bộ Y Tế"
+    },
+    "agenda": {
+        "title": "Chương Trình Hội Nghị",
+        "description": "Khám phá các phiên thảo luận chuyên sâu và cơ hội kết nối.",
+        "parts": [
+            {
+            "title": "PHẦN I: TIẾP ĐÓN ĐẠI BIỂU & KHAI MẠC HỘI NGHỊ",
+            "items": [
+                {
+                "startTime": "07:30",
+                "endTime": "08:25",
+                "title": "Tiếp đón đại biểu khách mời và văn nghệ chào mừng",
+                "highlighted": true
+                },
+                {
+                "startTime": "08:25",
+                "endTime": "08:30",
+                "title": "Phát biểu khai mạc Hội nghị",
+                "note": "Lãnh đạo Bộ Y tế"
+                }
+            ]
+            },
+            {
+            "title": "PHẦN II: CÁC THỰC TIỄN TỐI ƯU VỀ M&A TRONG NGÀNH Y TẾ",
+            "items": [
+                {
+                "startTime": "08:30",
+                "endTime": "09:00",
+                "title": "Phiên 1: M&A ngành y tế Việt Nam – Góc nhìn toàn diện về pháp lý và triển vọng đầu tư",
+                "note": "<strong>Diễn giả:</strong> PGS.TS.BS. Đặng Đức Nhu đã có nhiều năm kinh nghiệm làm việc tại Cục Quản lý Khám, chữa bệnh - Bộ Y tế",
+                "highlighted": true
+                },
+                {
+                "startTime": "09:00",
+                "endTime": "09:35",
+                "title": "Phiên 2: Quy trình M&A chuẩn quốc tế và kinh nghiệm thực tiễn",
+                "note": "<strong>Diễn giả:</strong> Mr. Brian Langenberg (Đại diện ONEtoONE). ONEtoONE là một công ty tư vấn M&A với sự hiện diện tại hơn 30 quốc gia cùng văn phòng ở hơn 70 thành phố trên toàn cầu. Tính đến nay, ONEtoONE đã tư vấn thành công hơn 2.000 thương vụ trên mọi lĩnh vực"
+                },
+                {
+                "startTime": "09:35",
+                "endTime": "10:15",
+                "title": "Phiên 3: Góc nhìn và kỳ vọng của quỹ đầu tư đối với lĩnh vực y tế",
+                "note": "<strong>Diễn giả:</strong> Đại diện đến từ Quỹ đầu tư nước ngoài",
+                "highlighted": true
+                },
+                {
+                "startTime": "10:15",
+                "endTime": "11:00",
+                "title": "Phiên 4: Tổng quan thị trường vốn tại Việt Nam - Quy trình IPO và các kênh huy động vốn hiệu quả thông qua phát hành cổ phiếu, trái phiếu",
+                "note": "<strong>Diễn giả:</strong> Đại diện đến từ Quỹ quản lý tài sản hoặc Công ty chứng khoán"
+                }
+            ]
+            },
+            {
+            "title": "PHẦN III: TỌA ĐÀM VÀ KÝ KẾT",
+            "items": [
+                {
+                "startTime": "11:00",
+                "endTime": "11:30",
+                "title": "Tọa đàm chia sẻ về M&A y tế tại Việt Nam",
+                "note": "Đại diện ONEtoONE, Medicallaw, Công ty chứng khoán, Quỹ đầu tư quốc tế và Doanh nghiệp y tế",
+                "highlighted": true
+                },
+                {
+                "startTime": "11:30",
+                "endTime": "12:00",
+                "title": "Ký kết MOU với các đối tác trong nước và quốc tế"
+                }
+            ]
+            }
+        ],
+        "download": "Tải Agenda Chi Tiết (PDF)"
+    },
+    "speakers": {
+      "title": "Diễn Giả & Khách Mời Tiêu Biểu",
+      "moh": "Đại diện Bộ Y Tế",
+      "mohRole": "Lãnh đạo cấp cao",
+      "mrNhu": "PGS.TS.BS Đặng Đức Nhu",
+      "mrNhuRole": "Cố vấn cấp cao Medicallaw",
+      "mrBrian": "Mr. Brian Langenberg",
+      "mrBrianRole": "Partner, Head of Singapore Office <br> ONEtoONE Corporate Finance",
+      "investor": "Nhà đầu tư quốc tế",
+      "investorRole": "Đại diện Quỹ Private Equity"
+    },
+    "benefits": {
+      "title": "Quyền Lợi Khi Tham Dự",
+      "description": "Đây không chỉ là một hội nghị mà còn là cơ hội kết nối, giao lưu mở rộng hợp tác với các lãnh đạo, chủ doanh nghiệp hàng đầu trong lĩnh vực Y tế",
+      "item1Title": "Cập nhật xu hướng",
+      "item1Desc": "Nắm bắt xu hướng M&A y tế mới nhất tại Việt Nam & Quốc tế",
+      "item2Title": "Kết nối trực tiếp",
+      "item2Desc": "Cơ hội kết nối trực tiếp với các nhà đầu tư & quỹ quốc tế",
+      "item3Title": "Mở rộng mạng lưới",
+      "item3Desc": "Tiếp cận mạng lưới 200+ lãnh đạo y tế & tài chính",
+      "item4Title": "Quà tặng cao cấp",
+      "item4Desc": "Nhận bộ quà tặng cao cấp & cơ hội quảng bá tại sự kiện quốc tế",
+      "item5Title": "Trải nghiệm đẳng cấp",
+      "item5Desc": "Tham gia sự kiện chuyên nghiệp, chuẩn quốc tế",
+      "item6Title": "Sự đồng hành",
+      "item6Desc": "Đồng hành cùng các dự án cộng đồng"
+    },
+    "tickets": {
+      "title": "Thông Tin Đăng Ký Thành Viên",
+      "invitation": "Thư mời",
+      "invitationOnly": "(Invitation Only)",
+      "invitationDesc": "Dành cho Lãnh đạo Bộ ngành, Chủ tịch/TGĐ các Tập đoàn y tế hàng đầu.",
+      "invitationContact": "0914.266.688 - Mrs. Hương",
+      "member": "Đăng ký thành viên",
+      "earlyBird": "(Early Bird)",
+      "memberDesc": "Bao gồm toàn bộ tài liệu, tiệc trà, tiệc trưa VIP và bộ quà tặng cao cấp từ Ban tổ chức.",
+      "price": "2.000.000 VNĐ",
+      "registerNow": "Đăng ký ngay",
+      "note": "Sau ngày 15/11 phí đăng ký áp dụng là 4.000.000 VNĐ"
+    },
+    "venue": {
+      "title": "Melia Hà Nội - Bố cục hội trường"
+    },
+    "sponsors": {
+      "title": "Đơn Vị Đồng Hành",
+      "description": "Sự kiện được tổ chức và đồng hành bởi các đơn vị uy tín hàng đầu trong và ngoài nước."
+    },
+    "registerForm": {
+      "title": "Đăng Ký Thành Viên",
+      "note": "Sau ngày 15/11 phí đăng ký áp dụng là 4.000.000 VNĐ",
+      "fullName": "Họ và Tên (*)",
+      "position": "Chức vụ / Đơn vị (*)",
+      "email": "Email (*)",
+      "phone": "Số điện thoại (*)",
+      "members": "Số Thành Viên Đăng Ký (*)",
+      "address": "Địa chỉ nhận vé mời và quà tặng (*)",
+      "question": "Câu hỏi dành cho diễn giả",
+      "field": "Lĩnh vực hoạt động (*)",
+      "fieldOptions": {
+        "hos": "Bệnh viện",
+        "duoc": "Dược phẩm",
+        "VNYS": "Công nghệ y sinh",
+        "NMCN": "Nhà máy công nghệ",
+        "MPDD": "Phân phối mỹ phẩm – dinh dưỡng",
+        "care": "Chăm sóc sức khỏe",
+        "other": "Khác",
+        "invest": "Đầu tư"
+      },
+      "guestType": "Nhu cầu tham dự (*)",
+      "guestOptions": {
+        "networking": "Networking",
+        "sponsorship": "Tài trợ",
+        "attend": "Tham dự hội nghị"
+      },
+      "source": "Bạn biết đến hội nghị từ đâu? (*)",
+      "sourceOptions": {
+        "facebook": "Facebook",
+        "website": "Website",
+        "friend": "Bạn bè giới thiệu",
+        "other": "Khác"
+      },
+      "submit": "Xác Nhận Đăng Ký",
+      "success": "Cảm ơn bạn đã đăng ký! Đang chuyển hướng đến trang thanh toán...",
+      "error": "Đăng ký thất bại. Vui lòng thử lại hoặc liên hệ BTC.",
+      "serverError": "Không thể kết nối máy chủ. Vui lòng thử lại sau."
+    },
+    "footer": {
+      "contact": "Thông tin liên hệ",
+      "organizer": "Đơn vị tổ chức",
+      "organizerName": "CÔNG TY TNHH TƯ VẤN PHÁP LÝ Y TẾ VIỆT NAM (MEDICALLAW)",
+      "hotline": "Hotline",
+      "email": "Email",
+      "website": "Website",
+      "address": "Địa chỉ",
+      "venue": "Địa điểm tổ chức",
+      "venueName": "MELIÁ HA NOI HOTEL",
+      "hanoiAddress": "Số 95 Nguyễn Tuân, phường Thanh Xuân, Hà Nội",
+      "hotelAddress": "Số 44B Lý Thường Kiệt, phường Cửa Nam, Hà Nội",
+      "internationalPartner": "Đối tác quốc tế",
+      "mediaSponsor": "Đơn vị bảo trợ truyền thông",
+      "mediaName": "Báo Sức Khỏe và Đời Sống",
+      "copyright": "© 2025 Medicallaw. All Rights Reserved."
+    },
+     "paymentPage": {
+      "title": "Thanh toán",
+      "instruction": "Quý khách vui lòng thanh toán phí thành viên đăng ký hội nghị theo mã QR của BTC dưới đây",
+      "step1": "Bước 1: Mở Ví điện tử/Ngân hàng",
+      "step2": "Bước 2: Chọn",
+      "step2Icon": "và quét mã",
+      "downloadQR": "Tải xuống",
+      "step3": "Bước 3: Xác Nhận Chuyển Khoản",
+      "transferDetails": "THÔNG TIN CHUYỂN KHOẢN",
+      "supportText": "Hỗ trợ ứng dụng ngân hàng để chuyển khoản nhanh 24/7",
+      "accountName": "Công ty TNHH tư vấn pháp lý y tế Việt Nam",
+      "bank": "NGÂN HÀNG:",
+      "accountNumber": "TÀI KHOẢN:",
+      "amount": "SỐ TIỀN:",
+      "finalNote": "Vui lòng",
+      "finalNoteBold": "nhập chính xác nội dung",
+      "finalNoteEnd": ", thanh toán xong vui lòng liên hệ lại bộ phận chăm sóc khách hàng."
+    },
+    "fab": {
+      "call": "Gọi",
+      "zalo": "Zalo",
+      "facebook": "Facebook"
+    }
+  }

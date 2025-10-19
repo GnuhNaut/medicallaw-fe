@@ -1,0 +1,247 @@
+{
+    "siteTitle": "INTERNATIONAL CONFERENCE ON MERGERS AND ACQUISITIONS (M&A) IN THE HEALTHCARE SECTOR 2025 (Held for the first time) - HIMA 2025",
+    "header": {
+      "about": "About",
+      "speakers": "Speakers",
+      "agenda": "Agenda",
+      "tickets": "Member Register",
+      "payment": "Payment",
+      "register": "Register",
+      "lang": "Tiếng Việt"
+    },
+    "hero": {
+      "title": "INTERNATIONAL CONFERENCE ON MERGERS AND ACQUISITIONS (M&A) IN THE HEALTHCARE SECTOR 2025",
+      "subtitle": "HIMA 2025",
+      "tagline": "Legal transparency – Healthcare Value",
+      "firstTime": "(Held for the first time)",
+      "registerButton": "Member Register Now",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "eventOver": "The event has already taken place!"
+    },
+    "about": {
+      "title": "About",
+      "conferenceTitle": "About the Conference",
+      "conferenceDescription": "INTERNATIONAL CONFERENCE ON MERGERS AND ACQUISITIONS (M&A) IN THE HEALTHCARE SECTOR 2025 - HIMA 2025 (Held for the first time) organized by Medicallaw, will bring together more than 200 leaders from ministries, healthcare corporations, investment funds, biomedical technology and genetic testing, as well as enterprises in cosmetics, nutrition, dairy, and international experts. The event aims to promote legal transparency and standardize M&A processes in the healthcare sector, with a vision toward IPO readiness and sustainable growth.",
+      "projectsTitle": "Featured Projects",
+      "featuredProjects": [
+    { "name": "HOAN MY GENERAL HOSPITAL - DA NANG", "image": "/assets/imgs/benhvien/hoanmy.png" },
+    { "name": "VINMEC NHA TRANG INTERNATIONAL GENERAL HOSPITAL", "image": "/assets/imgs/benhvien/nhatrang.png" },
+    { "name": "VINMEC DA NANG INTERNATIONAL GENERAL HOSPITAL", "image": "/assets/imgs/benhvien/vinmec.jpg" },
+    { "name": "PHUONG DONG GENERAL HOSPITAL", "image": "/assets/imgs/benhvien/phuongdong.png" },
+    { "name": "SAI GON – QUY NHON EYE HOSPITAL", "image": "/assets/imgs/benhvien/qn.png" },
+    { "name": "THIEN HANH GENERAL HOSPITAL", "image": "/assets/imgs/benhvien/thienhanh.png" },
+    { "name": "HOANG ANH GIA LAI UNIVERSITY OF MEDICINE AND PHARMACY HOSPITAL", "image": "/assets/imgs/benhvien/HAGL-01.png" },
+    { "name": "TTH HA TINH GENERAL HOSPITAL", "image": "/assets/imgs/benhvien/TTH-01.png" },
+    { "name": "CENTRAL OTORHINOLARYNGOLOGY HOSPITAL", "image": "/assets/imgs/benhvien/ne.jpg" }
+  ]
+    },
+    "keyInfo": {
+      "time": "Date",
+      "date": "November 21, 2025",
+      "venue": "Venue",
+      "location": "Thang Long Ballroom, 7th floor, MELIÁ HA NOI HOTEL, 44B Ly Thuong Kiet Street, Cua Nam Ward, Hanoi Capital",
+      "mediaSponsor": "Media Partner",
+      "mediaName": "\"Suc Khoe va Doi Song\" Newspaper - Ministry of Health"
+    },
+    "agenda": {
+        "title": "Conference Agenda",
+        "description": "Explore in-depth discussion sessions and networking opportunities.",
+        "parts": [
+            {
+            "title": "PART I: OPENING & WELCOME SESSION",
+            "items": [
+                {
+                "startTime": "07:30",
+                "endTime": "08:25",
+                "title": "Registration of Delegates and Opening",
+                "highlighted": true
+                },
+                {
+                "startTime": "08:25",
+                "endTime": "08:30",
+                "title": "Opening Remarks",
+                "note": "Delivered by the Leadership of the Ministry of Health"
+                }
+            ]
+            },
+            {
+            "title": "PART II: M&A BEST PRACTICES",
+            "items": [
+                {
+                "startTime": "08:30",
+                "endTime": "09:00",
+                "title": "Session 1: Vietnam Healthcare M&A – Legal Landscape and Investment Outlook",
+                "note": "<strong>Speaker:</strong> Assoc. Prof. Dang Duc Nhu, MD, PhD with extensive experience at the Department of Medical Services Administration, Ministry of Health",
+                "highlighted": true
+                },
+                {
+                "startTime": "09:00",
+                "endTime": "09:35",
+                "title": "Session 2: Doing M&A Right – Global Best Practices",
+                "note": "<strong>Speaker:</strong> Mr. Brian Langenberg (Representative of ONEtoONE). ONEtoONE is an international middle-market M&A advisory firm, with a presence in more than 30 countries and offices in over 70 cities worldwide. The firm has successfully completed more than 2,000 deals to date"
+                },
+                {
+                "startTime": "09:35",
+                "endTime": "10:15",
+                "title": "Session 3: Buyer Expectations – What the International Investor Expects",
+                "note": "<strong>Speaker:</strong> Representative from an International Investment Fund",
+                "highlighted": true
+                },
+                {
+                "startTime": "10:15",
+                "endTime": "11:00",
+                "title": "Session 4: Vietnam’s Public Capital Market – A Public Path to Raising Capital",
+                "note": "<strong>Speakers:</strong> Representatives from an Asset Management Fund or a Securities Firm"
+                }
+            ]
+            },
+            {
+            "title": "PART III: PANEL DISCUSSION",
+            "items": [
+                {
+                "startTime": "11:00",
+                "endTime": "11:30",
+                "title": "Panel Discussion & Q&A: M&A in Vietnam’s Healthcare Sector",
+                "note": "Representatives from ONEtoONE, Medicallaw, Securities Firm, International Investment Fund, and Healthcare Enterprises",
+                "highlighted": true
+                },
+                {
+                "startTime": "11:30",
+                "endTime": "12:00",
+                "title": "Signing Ceremony of MOUs with Local and International Partners"
+                }
+            ]
+            }
+        ],
+        "download": "Download Detailed Agenda (PDF)"
+    },
+    "speakers": {
+      "title": "Keynote Speakers & Guests",
+      "moh": "Ministry of Health",
+      "mohRole": "Leader of Ministry of Health",
+      "mrNhu": "Assoc. Prof. Dang Duc Nhu, MD, PhD",
+      "mrNhuRole": "Managing Partner <br> Medicallaw",
+      "mrBrian": "Mr. Brian Langenberg",
+      "mrBrianRole": "Partner, Head of Singapore Office <br> ONEtoONE Corporate Finance",
+      "investor": "International Investor",
+      "investorRole": "Private Equity Fund Representative"
+    },
+    "benefits": {
+      "title": "Benefits of Attending",
+      "description": "This is not just a conference, but an opportunity to connect, exchange, and expand cooperation with top leaders and business owners in the Healthcare sector.",
+      "item1Title": "Trend Updates",
+      "item1Desc": "Stay updated on the latest healthcare M&A trends in Vietnam & internationally.",
+      "item2Title": "Direct Networking",
+      "item2Desc": "Opportunities for direct connection with international investors & funds.",
+      "item3Title": "Expand Your Network",
+      "item3Desc": "Access a network of 200+ healthcare & financial leaders.",
+      "item4Title": "Premium Gift Set",
+      "item4Desc": "Receive a premium gift set & opportunities for promotion at an international event.",
+      "item5Title": "High-Class Experience",
+      "item5Desc": "Participate in a professional, international-standard event.",
+      "item6Title": "Community Engagement",
+      "item6Desc": "Contribute to and support community projects."
+    },
+    "tickets": {
+      "title": "Member Register Information",
+      "invitation": "Invitation",
+      "invitationOnly": "(Invitation Only)",
+      "invitationDesc": "For Ministry Leaders, Chairpersons/CEOs of leading healthcare corporations.",
+      "invitationContact": "0914.266.688 - Mrs. Huong",
+      "member": "Member registration",
+      "earlyBird": "(Early Bird)",
+      "memberDesc": "Includes all materials, tea break, VIP lunch, and a premium gift set from the organizers.",
+      "price": "76 USD",
+      "registerNow": "Member Register Now",
+      "note": "After November 15, the registration fee is 152 USD"
+    },
+    "venue": {
+      "title": "Melia Hanoi - Ballroom Layout"
+    },
+    "sponsors": {
+      "title": "Partners & Sponsors",
+      "description": "The event is organized and supported by leading reputable domestic and international organizations."
+    },
+    "registerForm": {
+      "title": "Register to Attend",
+      "note": "After November 15, the registration fee is 152 USD",
+      "fullName": "Full Name (*)",
+      "position": "Position / Company (*)",
+      "email": "Email (*)",
+      "phone": "Phone Number (*)",
+      "members": "Number of attendees (*)",
+      "address": "Address to receive invitation and gift (*)",
+      "question": "Question for the speakers",
+      "field": "Field of Practice (*)",
+        "fieldOptions": {
+            "hos": "Hospital/Medical Facility",
+            "duoc": "Pharmaceutical",
+            "VNYS": "Biotechnology",
+            "NMCN": "Manufacturing Plant",
+            "MPDD": "Cosmetics - Nutraceuticals Distribution",
+            "care": "Healthcare Services",
+            "other": "Other",
+            "invest": "Investment"
+        },
+        "guestType": "Registration Type (*)",
+        "guestOptions": {
+            "networking": "Networking",
+            "sponsorship": "Sponsorship",
+            "attend": "Conference Attendance"
+        },
+      "source": "How did you hear about us? (*)",
+      "sourceOptions": {
+        "facebook": "Facebook",
+        "website": "Website",
+        "friend": "Friend's recommendation",
+        "other": "Other"
+      },
+      "submit": "Confirm Registration",
+      "success": "Thank you for registering! Redirecting to payment page...",
+      "error": "Registration failed. Please try again or contact the organizers.",
+      "serverError": "Could not connect to the server. Please try again later."
+    },
+    "footer": {
+      "contact": "Contact Information",
+      "organizer": "Organizer",
+      "organizerName": "Vietnam Medical Legal Consulting Co., Ltd (MEDICALLAW)",
+      "hotline": "Hotline",
+      "email": "Email",
+      "website": "Website",
+      "address": "Address",
+      "venue": "Venue",
+      "venueName": "MELIÁ HANOI HOTEL",
+      "hanoiAddress": "95 Nguyen Tuan Street, Thanh Xuan Ward, Hanoi, Vietnam",
+      "hotelAddress": "44 Ly Thuong Kiet Street, Cua Nam Ward, Hoan Kiem District, Hanoi, Vietnam",
+      "internationalPartner": "International Partner",
+      "mediaSponsor": "Media Sponsor",
+      "mediaName": "Health and Lifestyle Newspaper",
+      "copyright": "© 2025 Medicallaw. All Rights Reserved."
+    },
+    "paymentPage": {
+      "title": "Payment",
+      "instruction": "Please kindly pay the conference registration membership fee using the organizer's QR code provided below.",
+      "step1": "Step 1: Open your E-Wallet/Banking App",
+      "step2": "Step 2: Choose",
+      "step2Icon": "and scan the QR code",
+      "downloadQR": "Download",
+      "step3": "Step 3: Confirm the Transfer",
+      "transferDetails": "BANK TRANSFER DETAILS",
+      "supportText": "Supports 24/7 instant transfer via banking apps",
+      "accountName": "Vietnam Medical Legal Consulting Co., Ltd",
+      "bank": "BANK:",
+      "accountNumber": "ACCOUNT NUMBER:",
+      "amount": "AMOUNT:",
+      "finalNote": "Please",
+      "finalNoteBold": "enter the exact transfer content",
+      "finalNoteEnd": ". After payment, kindly contact our support team."
+    },
+     "fab": {
+      "call": "Hotline",
+      "zalo": "Zalo",
+      "facebook": "Facebook"
+    }
+  }
