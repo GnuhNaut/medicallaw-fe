@@ -5,8 +5,8 @@ const AboutSection = () => {
   const { t } = useTranslation();
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const featuredProjects = t('about.featuredProjects', { returnObjects: true });
-  
+//   const featuredProjects = t('about.featuredProjects', { returnObjects: true });
+
   const slides = [
     {
       type: 'conference',
@@ -18,26 +18,59 @@ const AboutSection = () => {
           <div className="space-y-8">
             <h3 className="text-3xl md:text-5xl font-extrabold text-brand-navy mb-4 tracking-normal">{t('about.conferenceTitle')}</h3>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
-              <p>{t('about.conferenceDescription')}</p>
+              {/* <p>{t('about.conferenceDescription')}</p> */}
+              <p dangerouslySetInnerHTML={{ __html: t('about.conferenceDescription') }} />
             </div>
           </div>
         </div>
       )
     },
-    ...featuredProjects.map(project => ({
-      type: 'project',
+    {
+      type: 'conference',
       content: (
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <img src={project.image} alt={project.name} className="rounded-2xl w-full h-auto object-cover" />
+            <img src="/assets/imgs/aboutm.avif" alt="Hội nghị Y tế" className="rounded-2xl shadow-xl w-full h-auto object-cover" />
           </div>
           <div className="space-y-8">
-            <h3 className="text-3xl md:text-4xl font-extrabold text-brand-navy mb-4 tracking-normal">{t('about.projectsTitle')}</h3>
-            <h4 className="text-2xl md:text-3xl font-bold text-brand-gold mb-6">{project.name}</h4>
+            <h3 className="text-3xl md:text-5xl font-extrabold text-brand-navy mb-4 tracking-normal">{t('about.medicallawTitle')}</h3>
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+            <p dangerouslySetInnerHTML={{ __html: t('about.medicallawDescription') }} />
+            </div>
           </div>
         </div>
       )
-    }))
+    },
+    {
+      type: 'conference',
+      content: (
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <img src="/assets/imgs/about1to1.jpg" alt="Hội nghị Y tế" className="rounded-2xl shadow-xl w-full h-auto object-cover" />
+          </div>
+          <div className="space-y-8 to1-list">
+            <h3 className="text-3xl md:text-5xl font-extrabold text-brand-navy mb-4 tracking-normal">{t('about.1to1Title')}</h3>
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+            <p dangerouslySetInnerHTML={{ __html: t('about.1to1Description') }} />
+            </div>
+          </div>
+        </div>
+      )
+    },
+    // ...featuredProjects.map(project => ({
+    //   type: 'project',
+    //   content: (
+    //     <div className="grid lg:grid-cols-2 gap-12 items-center">
+    //       <div>
+    //         <img src={project.image} alt={project.name} className="rounded-2xl w-full h-auto object-cover" />
+    //       </div>
+    //       <div className="space-y-8">
+    //         <h3 className="text-3xl md:text-4xl font-extrabold text-brand-navy mb-4 tracking-normal">{t('about.projectsTitle')}</h3>
+    //         <h4 className="text-2xl md:text-3xl font-bold text-brand-gold mb-6">{project.name}</h4>
+    //       </div>
+    //     </div>
+    //   )
+    // }))
   ];
 
   const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -54,7 +87,7 @@ const AboutSection = () => {
       <div className="bg-white md:p-12 p-6 rounded-3xl shadow-lg">
         <h2 className="text-4xl md:text-5xl font-extrabold text-brand-navy my-4 tracking-normal text-center">{t('about.title')}</h2>
         <div className="integrated-slideshow relative overflow-visible rounded-3xl p-5">
-          <div className="slideshow-container relative w-full h-[600px] overflow-hidden">
+          <div className="slideshow-container relative w-full h-[700px] overflow-auto">
             {slides.map((slide, index) => (
               <div
                 key={index}

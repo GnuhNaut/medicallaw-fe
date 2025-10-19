@@ -23,8 +23,12 @@
     },
     "about": {
       "title": "About",
-      "conferenceTitle": "About the Conference",
-      "conferenceDescription": "INTERNATIONAL CONFERENCE ON MERGERS AND ACQUISITIONS (M&A) IN THE HEALTHCARE SECTOR 2025 - HIMA 2025 (Held for the first time) organized by Medicallaw, will bring together more than 200 leaders from ministries, healthcare corporations, investment funds, biomedical technology and genetic testing, as well as enterprises in cosmetics, nutrition, dairy, and international experts. The event aims to promote legal transparency and standardize M&A processes in the healthcare sector, with a vision toward IPO readiness and sustainable growth.",
+      "conferenceTitle": "Conference Overview",
+      "conferenceDescription": "<strong>The International Conference on Mergers and Acquisitions (M&A) in Healthcare 2025 – HIMA 2025</strong>, organized by <strong>Medicallaw</strong> , welcomes the participation of leaders from ministries, government organizations, investment funds, and international experts. The event brings together more than 200 distinguished guests representing healthcare groups, pharmaceutical companies, hospitals, as well as enterprises in biomedical technology, genetic testing, cosmetics, nutrition, and dairy sectors.</br><strong>HIMA 2025</strong> not only aims to promote legal transparency and standardize M&A procedures in the healthcare sector, but also serves as a platform for sharing IPO implementation processes and effective capital-raising channels, fostering collaboration and sustainable growth within the healthcare ecosystem.",
+      "medicallawTitle": "About Medicallaw",
+      "medicallawDescription": "We are proud to be Vietnam's leading provider of legal and medical consulting services, with experience advising over 200 hospitals nationwide.</br>MedicalLaw Vietnam Legal and Medical Consulting Company Limited offers specialized consulting services including: establishment consultation for medical facilities; licensing consultation for manufacturing and distribution of pharmaceuticals, cosmetics, functional foods, and medical devices; legal advisory for mergers and acquisitions (M&A); and comprehensive legal solutions in the healthcare sector.</br>With our dedicated and experienced team of experts, MedicalLaw consistently delivers complete client satisfaction and trust in every transaction and partnership project.",
+      "1to1Title": "About ONEtoONE",
+      "1to1Description": "ONEtoONE Corporate Finance is a leading independent global investment banking firm specializing in M&A advisory services for the middle market.</br>Founded in 2004, the firm operates in 70+ cities across 30+ countries, with over 200 expert dealmakers and 20 years of experience across 2,000+ mandates.</br>ONEtoONE delivers end-to-end M&A solutions powered by:</br> <ul><li>A global network seamlessly connecting clients with buyers and investors worldwide.</li><li>Advanced AI-driven search technology and a proprietary data platform providing real-time transaction visibility.</li><li>Sector-specialized teams ensuring deep industry expertise and maximum transaction value.</li><li>A conflict-free model, being 100% employee-owned.</li><li>Their methodology, technology, and international reach enable ONEtoONE to deliver clarity, precision, and success in every transaction.</li></ul>",
       "projectsTitle": "Featured Projects",
       "featuredProjects": [
     { "name": "HOAN MY GENERAL HOSPITAL - DA NANG", "image": "/assets/imgs/benhvien/hoanmy.png" },
@@ -43,8 +47,8 @@
       "date": "November 21, 2025",
       "venue": "Venue",
       "location": "Thang Long Ballroom, 7th floor, MELIÁ HA NOI HOTEL, 44B Ly Thuong Kiet Street, Cua Nam Ward, Hanoi Capital",
-      "mediaSponsor": "Media Partner",
-      "mediaName": "\"Suc Khoe va Doi Song\" Newspaper - Ministry of Health"
+      "mediaSponsor": "Media Endorsed by",
+      "mediaName": "Health & Lifestyle Newspaper – An Official Press Agency of Ministry of Health"
     },
     "agenda": {
         "title": "Conference Agenda",
@@ -74,14 +78,14 @@
                 "startTime": "08:30",
                 "endTime": "09:00",
                 "title": "Session 1: Vietnam Healthcare M&A – Legal Landscape and Investment Outlook",
-                "note": "<strong>Speaker:</strong> Assoc. Prof. Dang Duc Nhu, MD, PhD with extensive experience at the Department of Medical Services Administration, Ministry of Health",
+                "note": "<strong>Speaker: Assoc. Prof. Dang Duc Nhu, MD, PhD</strong>  with extensive experience at the Department of Medical Services Administration, Ministry of Health",
                 "highlighted": true
                 },
                 {
                 "startTime": "09:00",
                 "endTime": "09:35",
                 "title": "Session 2: Doing M&A Right – Global Best Practices",
-                "note": "<strong>Speaker:</strong> Mr. Brian Langenberg (Representative of ONEtoONE). ONEtoONE is an international middle-market M&A advisory firm, with a presence in more than 30 countries and offices in over 70 cities worldwide. The firm has successfully completed more than 2,000 deals to date"
+                "note": "<strong>Speaker: Mr. Brian Langenberg (Representative of ONEtoONE Corporate Finance)</strong>. ONEtoONE is an international middle-market M&A advisory firm, with a presence in more than 30 countries and offices in over 70 cities worldwide. The firm has successfully completed more than 2,000 deals to date"
                 },
                 {
                 "startTime": "09:35",
@@ -114,6 +118,18 @@
                 "title": "Signing Ceremony of MOUs with Local and International Partners"
                 }
             ]
+            },
+            {
+            "title": "PART IV: NETWORKING LUNCH & DONATION CEREMONY FOR THE VIETNAM FUND FOR DISABLED CHILDREN",
+            "items": [
+                {
+                "startTime": "12:00",
+                "endTime": "13:30",
+                "title": "Luncheon Gathering Donation to the Fund for Vietnamese Children with Disabilities",
+                "note": "Venue: Meliá Hanoi Hotel (5-star)",
+                "highlighted": true
+                }
+            ]
             }
         ],
         "download": "Download Detailed Agenda (PDF)"
@@ -123,9 +139,9 @@
       "moh": "Ministry of Health",
       "mohRole": "Leader of Ministry of Health",
       "mrNhu": "Assoc. Prof. Dang Duc Nhu, MD, PhD",
-      "mrNhuRole": "Managing Partner <br> Medicallaw",
-      "mrBrian": "Mr. Brian Langenberg",
-      "mrBrianRole": "Partner, Head of Singapore Office <br> ONEtoONE Corporate Finance",
+      "mrNhuRole": "<strong>Managing Partner</strong> <br> Medicallaw",
+      "mrBrian": "Mr. Brian K. Langeberg, MBA, CFA",
+      "mrBrianRole": "<strong>Partner, Head of Singapore Office</strong> <br> ONEtoONE Corporate Finance",
       "investor": "International Investor",
       "investorRole": "Private Equity Fund Representative"
     },
@@ -133,11 +149,11 @@
       "title": "Benefits of Attending",
       "description": "This is not just a conference, but an opportunity to connect, exchange, and expand cooperation with top leaders and business owners in the Healthcare sector.",
       "item1Title": "Trend Updates",
-      "item1Desc": "Stay updated on the latest healthcare M&A trends in Vietnam & internationally.",
+      "item1Desc": "Discover the latest M&A trends in Vietnam’s and global healthcare sectors.",
       "item2Title": "Direct Networking",
       "item2Desc": "Opportunities for direct connection with international investors & funds.",
       "item3Title": "Expand Your Network",
-      "item3Desc": "Access a network of 200+ healthcare & financial leaders.",
+      "item3Desc": "Meet leaders from the government organizations, international experts, and 200+ healthcare enterprises across Vietnam.",
       "item4Title": "Premium Gift Set",
       "item4Desc": "Receive a premium gift set & opportunities for promotion at an international event.",
       "item5Title": "High-Class Experience",
@@ -218,7 +234,7 @@
       "hotelAddress": "44 Ly Thuong Kiet Street, Cua Nam Ward, Hoan Kiem District, Hanoi, Vietnam",
       "internationalPartner": "International Partner",
       "mediaSponsor": "Media Sponsor",
-      "mediaName": "Health and Lifestyle Newspaper",
+      "mediaName": "Health & Lifestyle Newspaper – An Official Press Agency of Ministry of Health",
       "copyright": "© 2025 Medicallaw. All Rights Reserved."
     },
     "paymentPage": {

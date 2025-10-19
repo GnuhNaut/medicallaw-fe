@@ -7,8 +7,8 @@ const SpeakerCard = ({ image, name, role }) => (
       <img className="w-full h-full object-cover rounded-full shadow-xl transition-all duration-500" src={image} alt={name} loading="lazy" />
       <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-brand-gold transition-all duration-300 scale-90 group-hover:scale-100"></div>
     </div>
-    <h4 className="font-bold text-xl text-brand-navy">{name}</h4>
-    <p className="text-gray-600" dangerouslySetInnerHTML={{ __html: role }}></p>
+    <h4 className="font-bold text-md text-brand-navy">{name}</h4>
+    <p className="text-gray-600 text-sm" dangerouslySetInnerHTML={{ __html: role }}></p>
   </div>
 );
 
@@ -24,11 +24,11 @@ const SpeakersSection = () => {
 
   return (
     <section id="dien-gia">
-      <div className="bg-white p-8 md:p-12 rounded-3xl shadow-lg">
+      <div className="bg-white p-8 md:p-12 md:px-6 rounded-3xl shadow-lg">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold text-brand-navy mb-4 tracking-normal">{t('speakers.title')}</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 text-center">
           {speakers.map(speaker => <SpeakerCard key={speaker.name} {...speaker} />)}
         </div>
       </div>

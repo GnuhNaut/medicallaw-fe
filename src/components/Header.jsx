@@ -52,10 +52,10 @@ const Header = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 items-center font-semibold">
           <NavLink to="#gioi-thieu">{t('header.about')}</NavLink>
-          <NavLink to="#dien-gia">{t('header.speakers')}</NavLink>
           <NavLink to="#chuong-trinh">{t('header.agenda')}</NavLink>
+          <NavLink to="#dien-gia">{t('header.speakers')}</NavLink>
           <NavLink to="#ve-moi">{t('header.tickets')}</NavLink>
-          <Link to="/payment" className="text-gray-700 hover:text-brand-gold transition">{t('header.payment')}</Link>
+          {/* <Link to="/payment" className="text-gray-700 hover:text-brand-gold transition">{t('header.payment')}</Link> */}
           <NavLink to="#dang-ky" className="relative z-10 shimmer-btn bg-brand-gold text-white font-bold py-2 px-6 rounded-full hover:bg-brand-gold-dark transition shadow-lg">{t('header.register')}</NavLink>
           <button onClick={changeLanguage} title={t('header.lang')} className="flex items-center text-gray-700 hover:text-brand-gold transition">
             <img src={flagSrc} srcSet={flagSrcSet} width="40" alt="Language flag" />
@@ -72,10 +72,10 @@ const Header = () => {
       {isMenuOpen && (
         <div id="mobile-menu" className="md:hidden bg-white pb-3">
           <MobileNavLink to="#gioi-thieu">{t('header.about')}</MobileNavLink>
-          <MobileNavLink to="#dien-gia">{t('header.speakers')}</MobileNavLink>
           <MobileNavLink to="#chuong-trinh">{t('header.agenda')}</MobileNavLink>
+          <MobileNavLink to="#dien-gia">{t('header.speakers')}</MobileNavLink>
           <MobileNavLink to="#ve-moi">{t('header.tickets')}</MobileNavLink>
-          <Link to="/payment" className="block px-6 py-3 text-gray-700 hover:bg-gray-100" onClick={() => setMenuOpen(false)}>{t('header.payment')}</Link>
+          {/* <Link to="/payment" className="block px-6 py-3 text-gray-700 hover:bg-gray-100" onClick={() => setMenuOpen(false)}>{t('header.payment')}</Link> */}
           <div className="px-6 py-3">
             <button onClick={changeLanguage} className="flex items-center text-gray-700 hover:bg-gray-100 w-full">
               <img src={flagSrc} srcSet={flagSrcSet} width="40" alt="Language flag" />

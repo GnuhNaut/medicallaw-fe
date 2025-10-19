@@ -49,3 +49,14 @@
 .btn-zalo { animation: pulse-blue 2.1s infinite; }
 .btn-facebook { animation: pulse-facebook 2.2s infinite; }
 .floating-button-main { animation: pulse-support 2.2s infinite; }
+
+.to1-list ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+.to1-list ul li {
+    margin-bottom: 0.5rem;
+}
+.to1-list ul li:last-child {
+    margin-bottom: 0;
+}

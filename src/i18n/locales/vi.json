@@ -24,7 +24,11 @@
     "about": {
       "title": "Giới thiệu",
       "conferenceTitle": "Về Hội Nghị",
-      "conferenceDescription": "HỘI NGHỊ QUỐC TẾ VỀ MUA BÁN VÀ SÁP NHẬP (M&A) TRONG NGÀNH Y TẾ NĂM 2025 - HIMA 2025 (Lần thứ 1) do Medicallaw tổ chức, quy tụ hơn 200 lãnh đạo Bộ ngành, tập đoàn y tế, quỹ đầu tư, công nghệ y sinh và xét nghiệm gene, các doanh nghiệp về mỹ phẩm, dinh dưỡng, sữa,… và chuyên gia quốc tế. Sự kiện nhằm minh bạch pháp lý, chuẩn hóa quy trình M&A trong lĩnh vực y tế, hướng đến mục tiêu IPO và phát triển bền vững.",
+      "conferenceDescription": "<strong>Hội nghị Quốc tế về Mua bán và Sáp nhập (M&A) trong Ngành Y tế 2025 – HIMA 2025</strong> do <strong>Medicallaw</strong> tổ chức, có sự tham dự của lãnh đạo đến từ Bộ, ban, ngành, các quỹ đầu tư và chuyên gia quốc tế. Sự kiện quy tụ hơn 200 khách mời đại diện cho các tập đoàn y tế, công ty dược, bệnh viện, cùng doanh nghiệp trong lĩnh vực công nghệ y sinh, xét nghiệm gene, mỹ phẩm, dinh dưỡng và sữa.</br><strong>HIMA 2025</strong> không chỉ hướng tới mục tiêu minh bạch pháp lý và chuẩn hóa quy trình M&A trong lĩnh vực y tế, mà còn là diễn đàn hội tụ tầm nhìn đổi mới, chia sẻ quy trình thực hiện IPO và các kênh huy động vốn hiệu quả, thúc đẩy hợp tác đầu tư và phát triển hệ sinh thái chăm sóc sức khỏe bền vững.",
+      "medicallawTitle": "Về Medicallaw",
+      "medicallawDescription": "Chúng tôi tự hào là đơn vị hàng đầu tại Việt Nam trong lĩnh vực tư vấn pháp lý và y tế, với kinh nghiệm tư vấn cho hơn 200 bệnh viện trên toàn quốc</br>Công ty TNHH Tư vấn Pháp lý Y tế Việt Nam – MedicalLaw cung cấp các dịch vụ tư vấn chuyên sâu bao gồm: tư vấn thành lập cơ sở khám chữa bệnh; tư vấn hồ sơ xin cấp phép sản xuất, lưu hành dược, mỹ phẩm, thực phẩm chức năng, thiết bị y tế; tư vấn pháp lý cho hoạt động mua bán và sáp nhập (M&A); cùng các giải pháp pháp lý toàn diện trong lĩnh vực y tế.</br>Với đội ngũ chuyên gia tận tâm và giàu kinh nghiệm, MedicalLaw luôn mang đến cho khách hàng sự hài lòng và niềm tin tuyệt đối trong từng thương vụ và dự án hợp tác.",
+      "1to1Title": "Về ONEtoONE",
+      "1to1Description": "ONEtoONE Corporate Finance là tập đoàn tư vấn đầu tư quốc tế độc lập hàng đầu thế giới có trụ sở chính tại Tây Ban Nha, chuyên cung cấp dịch vụ tư vấn M&A (mua bán và sáp nhập) cho các doanh nghiệp vừa và lớn.</br>Thành lập từ năm 2004, ONEtoONE hiện có mặt tại hơn 70 thành phố thuộc hơn 30 quốc gia, với đội ngũ hơn 200 chuyên gia giàu kinh nghiệm. Đến nay, ONEtoONE đã thực hiện hơn 2.000 thương vụ M&A toàn cầu.</br>ONEtoONE mang đến giải pháp tư vấn toàn diện thông qua:</br> <ul class='list-disc list-inside space-y-1 text-md'><li>Mạng lưới toàn cầu kết nối doanh nghiệp với các nhà đầu tư và đối tác quốc tế.</li><li>Nền tảng dữ liệu và công nghệ AI tiên tiến, giúp tìm kiếm, phân tích và ghép nối cơ hội đầu tư chính xác, hiệu quả</li><li>Đội ngũ chuyên gia chuyên sâu theo lĩnh vực, đảm bảo tối ưu giá trị cho từng thương vụ.</li><li>Mô hình hoạt động độc lập, 100% sở hữu bởi nhân viên, cam kết không xung đột lợi ích.</li><li>Với phương pháp luận, công nghệ hiện đại và mạng lưới quốc tế rộng lớn, ONEtoONE hướng tới mục tiêu mang lại sự minh bạch, chính xác và thành công cho mỗi thương vụ M&A.</li></ul>",
       "projectsTitle": "Dự Án Tiêu Biểu",
       "featuredProjects": [
     { "name": "BỆNH VIỆN ĐA KHOA HOÀN MỸ - ĐÀ NẴNG", "image": "/assets/imgs/benhvien/hoanmy.png" },
@@ -44,7 +48,7 @@
       "venue": "Địa điểm",
       "location": "Hội trường Thăng Long Ballroom, Tầng 7, Khách sạn Meliá, 44B Lý Thường Kiệt, Phường Cửa Nam, Thành phố Hà Nội.",
       "mediaSponsor": "Đơn vị bảo trợ truyền thông",
-      "mediaName": "Báo Sức khỏe & Đời sống - Bộ Y Tế"
+      "mediaName": "Báo Sức Khỏe và Đời Sống – Cơ quan ngôn luận của Bộ Y Tế"
     },
     "agenda": {
         "title": "Chương Trình Hội Nghị",
@@ -74,14 +78,14 @@
                 "startTime": "08:30",
                 "endTime": "09:00",
                 "title": "Phiên 1: M&A ngành y tế Việt Nam – Góc nhìn toàn diện về pháp lý và triển vọng đầu tư",
-                "note": "<strong>Diễn giả:</strong> PGS.TS.BS. Đặng Đức Nhu đã có nhiều năm kinh nghiệm làm việc tại Cục Quản lý Khám, chữa bệnh - Bộ Y tế",
+                "note": "<strong>Diễn giả: PGS.TS.BS. Đặng Đức Nhu</strong> đã có nhiều năm kinh nghiệm làm việc tại Cục Quản lý Khám, chữa bệnh - Bộ Y tế",
                 "highlighted": true
                 },
                 {
                 "startTime": "09:00",
                 "endTime": "09:35",
                 "title": "Phiên 2: Quy trình M&A chuẩn quốc tế và kinh nghiệm thực tiễn",
-                "note": "<strong>Diễn giả:</strong> Mr. Brian Langenberg (Đại diện ONEtoONE). ONEtoONE là một công ty tư vấn M&A với sự hiện diện tại hơn 30 quốc gia cùng văn phòng ở hơn 70 thành phố trên toàn cầu. Tính đến nay, ONEtoONE đã tư vấn thành công hơn 2.000 thương vụ trên mọi lĩnh vực"
+                "note": "<strong>Diễn giả: Mr. Brian Langenberg (Đại diện ONEtoONE)</strong>. ONEtoONE là một công ty tư vấn M&A với sự hiện diện tại hơn 30 quốc gia cùng văn phòng ở hơn 70 thành phố trên toàn cầu. Tính đến nay, ONEtoONE đã tư vấn thành công hơn 2.000 thương vụ trên mọi lĩnh vực"
                 },
                 {
                 "startTime": "09:35",
@@ -114,6 +118,18 @@
                 "title": "Ký kết MOU với các đối tác trong nước và quốc tế"
                 }
             ]
+            },
+            {
+            "title": "PHẦN IV: TIỆC TRƯA KẾT NỐI & TRAO QUÀ CHO QUỸ VÌ TRẺ EM KHUYẾT TẬT VIỆT NAM",
+            "items": [
+                {
+                "startTime": "12:00",
+                "endTime": "13:30",
+                "title": "Tiệc trưa kết nối và phát động chương trình trách nhiệm cộng đồng, trao quà cho Quỹ Trẻ em khuyết tật Việt Nam",
+                "note": "Tiệc trưa tại khách sạn 5 sao Meliá",
+                "highlighted": true
+                }
+            ]
             }
         ],
         "download": "Tải Agenda Chi Tiết (PDF)"
@@ -123,9 +139,9 @@
       "moh": "Đại diện Bộ Y Tế",
       "mohRole": "Lãnh đạo cấp cao",
       "mrNhu": "PGS.TS.BS Đặng Đức Nhu",
-      "mrNhuRole": "Cố vấn cấp cao Medicallaw",
-      "mrBrian": "Mr. Brian Langenberg",
-      "mrBrianRole": "Partner, Head of Singapore Office <br> ONEtoONE Corporate Finance",
+      "mrNhuRole": "<strong>Cố vấn cấp cao</strong> </br> Medicallaw",
+      "mrBrian": "Mr. Brian K. Langeberg, MBA, CFA",
+      "mrBrianRole": "<strong>Partner, Head of Singapore Office</strong> <br> ONEtoONE Corporate Finance",
       "investor": "Nhà đầu tư quốc tế",
       "investorRole": "Đại diện Quỹ Private Equity"
     },
@@ -133,15 +149,15 @@
       "title": "Quyền Lợi Khi Tham Dự",
       "description": "Đây không chỉ là một hội nghị mà còn là cơ hội kết nối, giao lưu mở rộng hợp tác với các lãnh đạo, chủ doanh nghiệp hàng đầu trong lĩnh vực Y tế",
       "item1Title": "Cập nhật xu hướng",
-      "item1Desc": "Nắm bắt xu hướng M&A y tế mới nhất tại Việt Nam & Quốc tế",
+      "item1Desc": "Nắm bắt xu hướng M&A trong lĩnh vực y tế mới nhất tại Việt Nam & Quốc tế.",
       "item2Title": "Kết nối trực tiếp",
       "item2Desc": "Cơ hội kết nối trực tiếp với các nhà đầu tư & quỹ quốc tế",
       "item3Title": "Mở rộng mạng lưới",
-      "item3Desc": "Tiếp cận mạng lưới 200+ lãnh đạo y tế & tài chính",
+      "item3Desc": "Cơ hội tiếp cận trực tiếp các lãnh đạo của Bộ Y tế và Bộ Tài Chính, cũng như 200+ khách mời đến từ các công ty và tổ chức y tế tại Việt Nam.",
       "item4Title": "Quà tặng cao cấp",
       "item4Desc": "Nhận bộ quà tặng cao cấp & cơ hội quảng bá tại sự kiện quốc tế",
       "item5Title": "Trải nghiệm đẳng cấp",
-      "item5Desc": "Tham gia sự kiện chuyên nghiệp, chuẩn quốc tế",
+      "item5Desc": "TTham gia sự kiện chuyên nghiệp, chuẩn quốc tế",
       "item6Title": "Sự đồng hành",
       "item6Desc": "Đồng hành cùng các dự án cộng đồng"
     },
@@ -218,7 +234,7 @@
       "hotelAddress": "Số 44B Lý Thường Kiệt, phường Cửa Nam, Hà Nội",
       "internationalPartner": "Đối tác quốc tế",
       "mediaSponsor": "Đơn vị bảo trợ truyền thông",
-      "mediaName": "Báo Sức Khỏe và Đời Sống",
+      "mediaName": "Báo Sức Khỏe và Đời Sống – Cơ quan ngôn luận của Bộ Y Tế",
       "copyright": "© 2025 Medicallaw. All Rights Reserved."
     },
      "paymentPage": {

@@ -9,14 +9,13 @@ const Footer = () => {
   return (
     <footer className="bg-[#101332] text-white pt-12 pb-8">
       <div className="container mx-auto px-6 text-center">
-        <h5 className="text-3xl font-bold mb-4 tracking-tight text-brand-gold !leading-[1.2] md:w-3/4 text-center mx-auto">
-          {isVietnamese 
-            ? <>HỘI NGHỊ QUỐC TẾ <br /> VỀ MUA BÁN VÀ SÁP NHẬP (M&A) TRONG NGÀNH Y TẾ NĂM 2025</>
-            : <>INTERNATIONAL CONFERENCE ON M&A IN HEALTHCARE 2025</>
-          }
+        <h5 className="text-3xl font-bold mb-4 tracking-tight text-white !leading-[1.2] md:w-3/4 text-center mx-auto">
+          {t('hero.title')}
+          <br/>
+          <span className='text-brand-gold'>HIMA 2025</span>
         </h5>
         <h5 className="text-xl font-bold mb-4 tracking-tight text-brand-gold !leading-[1.2] md:w-3/4 text-center mx-auto">
-          <i>{isVietnamese ? 'Lần thứ 1' : 'First Edition'}</i>
+          <i>{t('hero.firstTime')}</i>
         </h5>
         <div className="mb-12">
           <h4 className="text-2xl font-bold mb-6 text-white">{t('footer.contact')}</h4>
