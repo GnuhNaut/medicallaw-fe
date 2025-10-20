@@ -24,11 +24,11 @@ const Header = () => {
     </HashLink>
   );
 
-  const MobileNavLink = ({ to, children }) => (
+  const MobileNavLink = ({ to, children, className }) => (
      <HashLink 
       smooth 
       to={`/${to}`}
-      className="block px-6 py-3 text-gray-700 hover:bg-gray-100"
+      className={className || "block px-6 py-3 text-gray-700 hover:bg-gray-100"}
       onClick={() => setMenuOpen(false)}
     >
       {children}
