@@ -114,10 +114,10 @@ const PaymentPage = () => {
             <div className="relative p-2 border-2 border-dashed border-gray-300 rounded-lg self-center mb-4">
               <img
                 id="qr-image"
-                src={paymentData?.qrCodeUrl} // Lấy URL QR từ state paymentData
+                src={paymentData?.qrCodeUrl || 'assets/imgs/qrcodetp.png'} // Lấy URL QR từ state paymentData
                 alt="Payment QR Code"
                 className="w-56 h-56 md:w-64 md:h-64 object-contain" // Kích thước QR
-                onError={(e) => e.target.src = '/assets/imgs/placeholder-qr.png'} // Ảnh thay thế nếu load lỗi
+                onError={(e) => e.target.src = '/assets/imgs/qrcodetp.png'} // Ảnh thay thế nếu load lỗi
               />
             </div>
             {/* Nút tải QR */}
