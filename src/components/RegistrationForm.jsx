@@ -91,6 +91,9 @@ const RegistrationForm = () => {
               <option value="BenhVien">{t('registerForm.fieldOptions.hos')}</option>
               <option value="DuocPham">{t('registerForm.fieldOptions.duoc')}</option>
               <option value="CongNgheYSinh">{t('registerForm.fieldOptions.VNYS')}</option>
+              <option value="ThietBiYTe">{t('registerForm.fieldOptions.TBYT')}</option>
+              <option value="ThucPhamChucNang">{t('registerForm.fieldOptions.TPCN')}</option>
+              <option value="XetNghiemCongNgheTeBaoGoc">{t('registerForm.fieldOptions.XNCNTBG')}</option>
               <option value="NhaMayCongNghe">{t('registerForm.fieldOptions.NMCN')}</option>
               <option value="PhanPhoiMyPhamDinhDuong">{t('registerForm.fieldOptions.MPDD')}</option>
               <option value="ChamSocSucKhoe">{t('registerForm.fieldOptions.care')}</option>

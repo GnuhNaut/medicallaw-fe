@@ -98,7 +98,7 @@
                 "startTime": "10:15",
                 "endTime": "11:00",
                 "title": "Session 4: Vietnam’s Public Capital Market – A Public Path to Raising Capital",
-                "note": "<strong>Speakers:</strong> Representatives from an Asset Management Fund or a Securities Firm"
+                "note": "<strong>Speakers:</strong> Representatives from a Securities Firm"
                 }
             ]
             },
@@ -197,6 +197,9 @@
             "duoc": "Pharmaceutical",
             "VNYS": "Biotechnology",
             "NMCN": "Manufacturing Plant",
+            "TBYT": "Medical devices",
+            "TPCN": "Functional foods",
+            "XNCNTBG": "Testing - Stem cell technology",
             "MPDD": "Cosmetics - Nutraceuticals Distribution",
             "care": "Healthcare Services",
             "other": "Other",

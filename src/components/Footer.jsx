@@ -23,7 +23,7 @@ const Footer = () => {
             <div className="bg-white/10 rounded-2xl p-6 backdrop-blur-sm">
               <h5 className="text-xl font-bold mb-4 text-brand-gold">{t('footer.organizer')}</h5>
               <p className="text-white mb-2"><strong>{t('footer.organizerName')}</strong></p>
-              <p className="text-gray-300 mb-1"><i className="fas fa-phone mr-2"></i><strong>{t('footer.hotline')}:</strong> +84 559.322.322 / +84 914.266.688 (Mrs. Huong) / {isVietnamese ? '0911.883.899 (Mr. Cương)' : '+ 84 911.833.899(Mr.Cuong)'}</p>
+              <p className="text-gray-300 mb-1"><i className="fas fa-phone mr-2"></i><strong>{t('footer.hotline')}:</strong> +84 559.322.322 / +84 914.266.688 (Mrs. Huong) / {isVietnamese ? '0911.883.899 (Mr. Cương)' : '+ 84 911.833.899(Mr.Cuong)'} / 0586.295.295 </p>
               <p className="text-gray-300 mb-1"><i className="fas fa-envelope mr-2"></i><strong>{t('footer.email')}:</strong> info@medicallaw.vn</p>
               <p className="text-gray-300 mb-1"><i className="fas fa-globe mr-2"></i><strong>{t('footer.website')}:</strong> https://medicallaw.vn/</p>
               <p className="text-gray-300"><i className="fas fa-map-marker-alt mr-2"></i><strong>{t('footer.address')}:</strong> {t('footer.hanoiAddress')}</p>

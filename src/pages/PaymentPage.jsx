@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { getPaymentInfo } from '../services/apiService'; // Đã cập nhật tên hàm
-
+import { PRICE_VND, PRICE_USD } from '../config';
 const PaymentPage = () => {
   const { t, i18n } = useTranslation();
   const { ticket_id } = useParams(); // Lấy ticket_id từ URL
@@ -25,10 +25,9 @@ const PaymentPage = () => {
         console.log('Received payment data:', data);
 
         // Kiểm tra dữ liệu trả về (ít nhất phải có qrCodeUrl và amount)
-        if (data && data.qrCodeUrl && data.amount !== undefined) {
-          setPaymentData(data);
+        if (data.success && data && data.data) {
+          setPaymentData(data.data);
         } else {
-          console.error('Invalid payment data received:', data);
           setError(t('paymentPage.errorFetchDetails', 'Không thể tải thông tin thanh toán hợp lệ.'));
         }
       } catch (err) {
@@ -87,12 +86,12 @@ const PaymentPage = () => {
   // }
 
   // Định dạng số tiền từ API
-  const formattedAmount = new Intl.NumberFormat(isVietnamese ? 'vi-VN' : 'en-US', {
+  const formattedAmount = paymentData && new Intl.NumberFormat(isVietnamese ? 'vi-VN' : 'en-US', {
     style: 'currency',
-    currency: paymentData?.currency || (isVietnamese ? 'VND' : 'USD'), // Ưu tiên currency từ API
+    currency: isVietnamese ? 'VND' : 'USD',
     minimumFractionDigits: 0
-  }).format(paymentData?.amount);
-
+  }).format(isVietnamese ? PRICE_VND*paymentData.members : PRICE_USD*paymentData.members); // Số tiền dựa trên số thành viên
+  // console.log('Formatted amount:', paymentData);
   // --- Render Giao Diện ---
   return (
     <main className="container mx-auto px-4 py-16 md:py-24">
@@ -114,7 +113,7 @@ const PaymentPage = () => {
             <div className="relative p-2 border-2 border-dashed border-gray-300 rounded-lg self-center mb-4">
               <img
                 id="qr-image"
-                src={paymentData?.qrCodeUrl || 'assets/imgs/qrcodetp.png'} // Lấy URL QR từ state paymentData
+                src={paymentData?.qrCodeUrl || '/assets/imgs/qrcodetp.png'} // Lấy URL QR từ state paymentData
                 alt="Payment QR Code"
                 className="w-56 h-56 md:w-64 md:h-64 object-contain" // Kích thước QR
                 onError={(e) => e.target.src = '/assets/imgs/qrcodetp.png'} // Ảnh thay thế nếu load lỗi
@@ -123,7 +122,7 @@ const PaymentPage = () => {
             {/* Nút tải QR */}
             <a
               id="download-qr-btn"
-              href={paymentData?.qrCodeUrl}
+              href={paymentData?.qrCodeUrl || '/assets/imgs/qrcodetp.png'}
               download={`HIMA2025_PaymentQR_${ticket_id}.png`}
               className="mt-4 mb-6 inline-flex items-center justify-center w-fit mx-auto bg-green-600 text-white font-bold py-2 px-5 rounded-lg hover:bg-green-700 transition-all duration-300 shadow"
             >

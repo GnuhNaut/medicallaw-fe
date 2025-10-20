@@ -98,7 +98,7 @@
                 "startTime": "10:15",
                 "endTime": "11:00",
                 "title": "Phiên 4: Tổng quan thị trường vốn tại Việt Nam - Quy trình IPO và các kênh huy động vốn hiệu quả thông qua phát hành cổ phiếu, trái phiếu",
-                "note": "<strong>Diễn giả:</strong> Đại diện đến từ Quỹ quản lý tài sản hoặc Công ty chứng khoán"
+                "note": "<strong>Diễn giả:</strong> Đại diện đến từ Công ty chứng khoán"
                 }
             ]
             },
@@ -196,6 +196,9 @@
         "hos": "Bệnh viện",
         "duoc": "Dược phẩm",
         "VNYS": "Công nghệ y sinh",
+        "TBYT": "Thiết bị y tế",
+        "TPCN": "Thực phẩm chức năng",
+        "XNCNTBG": "Xét nghiệm - Công nghệ tế bào gốc",
         "NMCN": "Nhà máy công nghệ",
         "MPDD": "Phân phối mỹ phẩm – dinh dưỡng",
         "care": "Chăm sóc sức khỏe",

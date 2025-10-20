@@ -60,3 +60,6 @@
 .to1-list ul li:last-child {
     margin-bottom: 0;
 }
+.font-black {
+    font-weight: 700 !important;
+}
