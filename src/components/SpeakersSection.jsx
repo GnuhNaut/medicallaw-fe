@@ -16,9 +16,9 @@ const SpeakersSection = () => {
   const { t } = useTranslation();
 
   const speakers = [
-    { image: '/assets/imgs/botaichinh.jpg', name: t('speakers.taichinh'), role: t('speakers.mohRole') },
+    { image: '/assets/imgs/botaichinh.jpg', name: t('speakers.taichinh'), role: t('speakers.taichinhRole') },
     { image: '/assets/imgs/boyte.jpg', name: t('speakers.moh'), role: t('speakers.mohRole') },
-    { image: '/assets/imgs/vcci.jpg', name: t('speakers.vcci'), role: t('speakers.mohRole') },
+    { image: '/assets/imgs/vcci.jpg', name: t('speakers.vcci'), role: t('speakers.vcciRole') },
     { image: '/assets/imgs/mrnhu.jpg', name: t('speakers.mrNhu'), role: t('speakers.mrNhuRole') },
     { image: '/assets/imgs/mrbrian.jpg', name: t('speakers.mrBrian'), role: t('speakers.mrBrianRole') },
     { image: '/assets/imgs/quy.png', name: t('speakers.investor'), role: t('speakers.investorRole') },
