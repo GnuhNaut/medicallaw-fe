@@ -15,7 +15,7 @@ const TicketsSection = () => {
             <h3 className="text-2xl font-bold text-brand-gold uppercase">{t('tickets.invitation')}</h3>
             <p className="text-brand-teal font-semibold text-lg mb-4">{t('tickets.invitationOnly')}</p>
             <p className="text-white mb-6 flex-grow">{t('tickets.invitationDesc')}</p>
-            <a href="tel:0914266688" className="mt-auto shimmer-btn bg-brand-gold text-white font-bold py-3 px-6 rounded-full hover:bg-brand-gold-dark transition">{t('tickets.invitationContact')}</a>
+            <a href="tel:0914266688" className="mt-auto shimmer-btn bg-brand-gold text-white font-bold py-3 px-6 rounded-full hover:bg-brand-gold-dark transition"><span>{t('tickets.plsContact')}</span> <br />{t('tickets.invitationContact')}</a>
           </div>
           <div className="bg-[#101332] text-white rounded-2xl shadow-2xl p-8 text-center flex flex-col border-2 border-brand-gold">
             <h3 className="text-2xl font-bold text-white uppercase">{t('tickets.member')}</h3>

@@ -137,6 +137,8 @@
     "speakers": {
       "title": "Diễn Giả & Khách Mời Tiêu Biểu",
       "moh": "Đại diện Bộ Y Tế",
+      "vcci": "Đại diện VCCI",
+      "taichinh": "Đại diện Bộ Tài Chính",
       "mohRole": "Lãnh đạo cấp cao",
       "mrNhu": "PGS.TS.BS Đặng Đức Nhu",
       "mrNhuRole": "<strong>Cố vấn cấp cao</strong> </br> Medicallaw",
@@ -164,6 +166,7 @@
     "tickets": {
       "title": "Thông Tin Đăng Ký Thành Viên",
       "invitation": "Thư mời",
+      "plsContact": "Xin vui lòng liên hệ",
       "invitationOnly": "(Invitation Only)",
       "invitationDesc": "Dành cho Lãnh đạo Bộ ngành, Chủ tịch/TGĐ các Tập đoàn y tế hàng đầu.",
       "invitationContact": "0914.266.688 - Mrs. Hương",

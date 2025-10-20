@@ -16,7 +16,9 @@ const SpeakersSection = () => {
   const { t } = useTranslation();
 
   const speakers = [
-    { image: '/assets/imgs/boyte.svg', name: t('speakers.moh'), role: t('speakers.mohRole') },
+    { image: '/assets/imgs/botaichinh.jpg', name: t('speakers.taichinh'), role: t('speakers.mohRole') },
+    { image: '/assets/imgs/boyte.jpg', name: t('speakers.moh'), role: t('speakers.mohRole') },
+    { image: '/assets/imgs/vcci.jpg', name: t('speakers.vcci'), role: t('speakers.mohRole') },
     { image: '/assets/imgs/mrnhu.jpg', name: t('speakers.mrNhu'), role: t('speakers.mrNhuRole') },
     { image: '/assets/imgs/mrbrian.jpg', name: t('speakers.mrBrian'), role: t('speakers.mrBrianRole') },
     { image: '/assets/imgs/quy.png', name: t('speakers.investor'), role: t('speakers.investorRole') },
@@ -28,7 +30,7 @@ const SpeakersSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold text-brand-navy mb-4 tracking-normal">{t('speakers.title')}</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-8 gap-4 text-center">
           {speakers.map(speaker => <SpeakerCard key={speaker.name} {...speaker} />)}
         </div>
       </div>

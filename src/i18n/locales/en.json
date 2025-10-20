@@ -137,6 +137,8 @@
     "speakers": {
       "title": "Keynote Speakers & Guests",
       "moh": "Ministry of Health",
+      "vcci": "VCCI",
+      "taichinh": "Ministry of Finance",
       "mohRole": "Leader of Ministry of Health",
       "mrNhu": "Assoc. Prof. Dang Duc Nhu, MD, PhD",
       "mrNhuRole": "<strong>Managing Partner</strong> <br> Medicallaw",
@@ -164,6 +166,7 @@
     "tickets": {
       "title": "Member Register Information",
       "invitation": "Invitation",
+      "plsContact": "Please contact",
       "invitationOnly": "(Invitation Only)",
       "invitationDesc": "For Ministry Leaders, Chairpersons/CEOs of leading healthcare corporations.",
       "invitationContact": "0914.266.688 - Mrs. Huong",
