@@ -78,3 +78,24 @@ export const getMemberInfo = async (ticket_id) => {
     throw error;
   }
 };
+
+export const checkPaymentStatus = async (ticket_id) => {
+  if (!ticket_id) {
+    console.error('API Error [checkPaymentStatus]: ticket_id is missing');
+    throw new Error('Ticket ID is required for checking status.');
+  }
+  try {
+    // console.log(`Checking payment status for ticket_id: ${ticket_id}`); // Bỏ log này để tránh spam console
+    const response = await apiClient.get(`/check-payment-status/${ticket_id}`);
+    // console.log('Payment status response:', response.data); // Bỏ log này
+    return response.data;
+  } catch (error) {
+    console.error(`API Error [checkPaymentStatus for ${ticket_id}]:`, error.response?.data || error.message || error);
+    // Nếu là lỗi 404 (không tìm thấy), trả về cấu trúc lỗi success: false
+    if (error.response && error.response.status === 404 && error.response.data) {
+      return error.response.data;
+    }
+    // Ném lỗi khác
+    throw error;
+  }
+};
