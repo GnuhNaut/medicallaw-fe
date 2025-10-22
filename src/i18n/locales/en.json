@@ -259,7 +259,7 @@
       "bank": "BANK:",
       "accountNumber": "ACCOUNT NUMBER:",
       "amount": "AMOUNT:",
-      "finalNote": "Please",
+      "finalNote": "Please enter the correct information and contact our Customer Service Department at hotline <strong> <a href='tel:+840559322322'>(+84)0559.322.322</a></strong> for more details.</br><strong> Thank you, Valued member!<strong>",
       "finalNoteBold": "enter the exact transfer content",
       "finalNoteEnd": ". After payment, kindly contact our support team.",
       "scanToPay": "Scan QR to pay",

@@ -220,9 +220,9 @@ const PaymentPage = () => {
   // ----- Thông tin tài khoản cố định -----
   const fixedAccountDetails = {
     accountName: t('paymentPage.accountName', 'Công ty TNHH tư vấn pháp lý y tế Việt Nam'),
-    bankName: 'TPBank',
-    bankLogo: 'https://tpb.vn/wps/wcm/connect/a85b875d-ad73-4591-8fd5-e8417a69c316/logo-tpb.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-a85b875d-ad73-4591-8fd5-e8417a69c316-pjudclH',
-    accountNumber: '87968879879'
+    bankName: 'MB Bank',
+    bankLogo: 'https://www.mbbank.com.vn/images/logo.png',
+    accountNumber: '7879879879879'
   };
   // ------------------------------------
 
@@ -337,8 +337,8 @@ const PaymentPage = () => {
                   <div className="flex items-center justify-end gap-2 w-3/5"> <span id="amount" className="font-bold text-red-600 text-lg">{formattedAmount}</span> <button onClick={() => copyToClipboard(amountToPay.toString(), 'Amount')} className="text-gray-400 hover:text-brand-teal transition text-lg" title="Copy"><i className="fa-regular fa-copy"></i></button> </div>
                 </div>
               </div>
-              <div className="mt-auto pt-6 text-red-600 font-semibold text-center border-t border-dashed mt-8">
-                <p>{t('paymentPage.finalNote')} <strong className="font-extrabold">{t('paymentPage.finalNoteBold')}</strong>{t('paymentPage.finalNoteEnd')}</p>
+              <div className="mt-auto pt-6 text-red-600 font-medium  text-md text-center border-t border-dashed mt-8">
+                <p dangerouslySetInnerHTML={{ __html:t('paymentPage.finalNote') }}></p>
               </div>
             </div>
           </div>
