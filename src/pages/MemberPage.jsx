@@ -78,7 +78,7 @@ const MemberPage = () => {
   // Render thông báo từ backend (success: false)
   if (message) {
     return (
-      <main className="container mx-auto px-4 py-16 md:py-24">
+      <main className="container mx-auto px-4 py-4 md:py-24">
         <div className="max-w-lg mx-auto bg-white p-8 rounded-2xl shadow-lg text-center border-t-4 border-yellow-400">
           <i className="fas fa-exclamation-triangle text-5xl text-yellow-500 mb-5"></i>
           <h2 className="text-2xl font-semibold text-gray-800 mb-3">{t('memberPage.notificationTitle', 'Thông báo')}</h2> {/* Key mới */}
@@ -97,7 +97,7 @@ const MemberPage = () => {
   // Render vé thành viên khi có dữ liệu (success: true)
   if (memberRegistration) {
     return (
-      <main className="container mx-auto px-4 py-16 md:py-24 flex flex-col items-center">
+      <main className="container mx-auto px-4 py-4 md:py-24 flex flex-col items-center">
          {/* <h1 className="text-3xl md:text-4xl font-bold text-center text-brand-navy mb-8">{t('memberPage.ticketTitle', 'Vé Tham Dự Hội Nghị')}</h1> Key mới */}
         <MemberTicket memberInfo={memberRegistration} />
         {/* Có thể thêm nút In vé hoặc Lưu vé ở đây */}

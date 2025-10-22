@@ -16,6 +16,7 @@ const RegistrationForm = () => {
     question: '',  // Đã có sẵn
     guestType: '', // Sử dụng state này
     field: '',     // Đã có sẵn
+    source: '',     // Đã có sẵn
   });
   const [status, setStatus] = useState({ loading: false, message: '', type: '' });
 
@@ -28,6 +29,12 @@ const RegistrationForm = () => {
     e.preventDefault();
     setStatus({ loading: true, message: '', type: '' });
     try {
+      if (formData.source === '') {
+        // Nếu 'source' vẫn là giá trị rỗng (placeholder)
+        const errorMessage = t('registerForm.errorSourceRequired', 'Vui lòng chọn nguồn bạn biết đến hội nghị.'); // Key mới
+        setStatus({ loading: false, message: errorMessage, type: 'error' }); // Có thể hiển thị lỗi chung hoặc chỉ lỗi cụ thể
+        return; // Ngăn không cho submit
+      }
       // Chuẩn bị dữ liệu gửi đi, đổi key `guestType` thành `guest_type`
       const dataToSend = {
         ...formData,
@@ -108,6 +115,13 @@ const RegistrationForm = () => {
               <option value="Thamdu">{t('registerForm.guestOptions.attend')}</option>
           </select>
         </div>
+        <select name="source" value={formData.source} onChange={handleChange} required className="peer custom-select w-full px-4 py-3 border border-gray-300 rounded-lg text-lg text-black bg-white focus:outline-none focus:ring-2 focus:ring-brand-gold transition appearance-none">
+            <option value="" disabled>{t('registerForm.source')}</option>
+            <option value="truyenhinh">{t('registerForm.sourceOptions.truyenhinh')}</option>
+            <option value="newspaper">{t('registerForm.sourceOptions.newspaper')}</option>
+            <option value="social">{t('registerForm.sourceOptions.social')}</option>
+            <option value="farmalink">{t('registerForm.sourceOptions.farmalink')}</option>
+        </select>
 
         {/* Hiển thị thông báo trạng thái */}
         {status.message && (

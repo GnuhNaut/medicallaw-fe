@@ -125,6 +125,7 @@ const MemberTicket = ({ memberInfo }) => {
           <img src="/assets/imgs/LogoMediacal.png" alt="Event Logo" className="h-10 mb-5 mx-auto" /> {/* Logo tối màu trên nền vàng */}
           <h3 className="md:text-xl text-lg font-bold uppercase mb-2 leading-tight">{t('hero.title', 'HIMA 2025')}</h3>
           <p className="md:text-xl text-lg font-bold">{t('hero.subtitle')}</p>
+          <p className="md:text-xl text-lg font-bold">{t('hero.firstTime')}</p>
           <p className="md:text-md text-sm opacity-90 font-medium">{t('hero.tagline', 'Minh bạch pháp lý – Giá trị Y khoa')}</p>
         </div>
         <div className="mt-4 md:text-md text-sm opacity-80 w-full">
@@ -148,7 +149,7 @@ const MemberTicket = ({ memberInfo }) => {
       </div>
 
       {/* === Phần Thông Tin Thành Viên (Bên Phải/Dưới) === */}
-      <div className="p-6 md:p-8 flex-grow relative z-10 space-y-2.5">
+      <div className="p-3 md:p-8 flex-grow relative z-10 space-y-2.5">
           <h4 className="md:text-2xl text-xl font-semibold text-brand-gold mb-4 border-b border-brand-gold/30 pb-2">{t('memberTicket.ticketInfo', 'Thông Tin Vé Tham Dự')}</h4>
           {/* Lặp qua các trường để hiển thị */}
           {Object.entries(fieldLabels).map(([key, label]) => {
@@ -163,8 +164,8 @@ const MemberTicket = ({ memberInfo }) => {
               }
 
               return (
-                  <div key={key} className="flex flex-col sm:flex-row md:text-lg text-md">
-                      <span className="font-bold text-gray-300 w-full sm:w-1/2 md:w-1/3 flex-shrink-0 mb-0.5 sm:mb-0">{label}:</span>
+                  <div key={key} className="flex flex-row md:text-lg text-sm">
+                      <span className="font-bold text-gray-300 w-1/2 md:w-1/3 flex-shrink-0 mb-0.5 sm:mb-0">{label}:</span>
                       <span className="font-light text-white break-words">{value}</span>
                   </div>
               );

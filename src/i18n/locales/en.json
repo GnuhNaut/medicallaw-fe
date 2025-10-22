@@ -216,13 +216,14 @@
             "sponsorship": "Sponsorship",
             "attend": "Conference Attendance"
         },
-      "source": "How did you hear about us? (*)",
-      "sourceOptions": {
-        "facebook": "Facebook",
-        "website": "Website",
-        "friend": "Friend's recommendation",
-        "other": "Other"
-      },
+        "errorSourceRequired": "Please provide all required information (*)",
+        "source": "How did you hear about the conference? (*)",
+        "sourceOptions": {
+          "truyenhinh": "Television",
+          "newspaper": "Newspaper/Magazine",
+          "social": "Social media",
+          "Pharmalink": "Pharmalink"
+        },
       "submit": "Confirm Registration",
       "success": "Thank you for registering! Redirecting to payment page...",
       "error": "Registration failed. Please try again or contact the organizers.",
@@ -260,6 +261,7 @@
       "accountNumber": "ACCOUNT NUMBER:",
       "amount": "AMOUNT:",
       "finalNote": "Please enter the correct information and contact our Customer Service Department at hotline <strong> <a href='tel:+840559322322'>(+84)0559.322.322</a></strong> for more details.</br><strong> Thank you, Valued member!<strong>",
+      "noteChange": "Dear members, please DO NOT CHANGE THE TRANSFER CONTENT during the payment process. Thank you!",
       "finalNoteBold": "enter the exact transfer content",
       "finalNoteEnd": ". After payment, kindly contact our support team.",
       "scanToPay": "Scan QR to pay",

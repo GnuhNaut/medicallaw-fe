@@ -216,12 +216,13 @@
         "sponsorship": "Tài trợ",
         "attend": "Tham dự hội nghị"
       },
-      "source": "Bạn biết đến hội nghị từ đâu? (*)",
+      "errorSourceRequired": "Vui lòng cung cấp đầy đủ thông tin yêu cầu (*)",
+      "source": "Bạn tiếp cận thông tin về hội nghị qua kênh nào? (*)",
       "sourceOptions": {
-        "facebook": "Facebook",
-        "website": "Website",
-        "friend": "Bạn bè giới thiệu",
-        "other": "Khác"
+        "truyenhinh": "Truyền hình",
+        "newspaper": "Báo chí",
+        "social": "Social media",
+        "farmalink": "Pharmalink"
       },
       "submit": "Xác Nhận Đăng Ký",
       "success": "Cảm ơn bạn đã đăng ký! Đang chuyển hướng đến trang thanh toán...",
@@ -260,6 +261,7 @@
       "accountNumber": "TÀI KHOẢN:",
       "amount": "SỐ TIỀN:",
       "finalNote": "Vui lòng nhập chính xác nội dung và liên hệ bộ phận CSKH số hotline <strong> <a href='tel:0559322322'>0559.322.322</a> </strong>để biết thêm thông tin.</br><strong> Xin cảm ơn Quý thành viên!</strong>",
+      "noteChange": "Quý thành viên tham dự vui lòng KHÔNG THAY ĐỔI NỘI DUNG CHUYỂN KHOẢN trong quá trình thanh toán. Xin cảm ơn!",
       "finalNoteBold": "nhập chính xác nội dung",
       "finalNoteEnd": ", thanh toán xong vui lòng liên hệ lại bộ phận chăm sóc khách hàng.",
       "scanToPay": "Quét mã để thanh toán",

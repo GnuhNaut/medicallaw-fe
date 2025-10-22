@@ -299,6 +299,9 @@ const PaymentPage = () => {
                   <div className="w-[240px] h-[240px] flex items-center justify-center text-gray-400">{t('paymentPage.qrLoadingError', 'Lỗi tải mã QR')}</div>
                 )}
               </div>
+              <div>
+                <p className="text-red-600 text-sm font-bold text-center italic">*{t('paymentPage.noteChange')}</p>
+              </div>
               {qrCodeDataString && (
                  <button onClick={handleDownloadQR} className="mt-4 mb-6 inline-flex items-center justify-center w-fit mx-auto bg-green-600 text-white font-bold py-2 px-5 rounded-lg hover:bg-green-700 transition-all duration-300 shadow">
                    <i className="fa-solid fa-download mr-2"></i> <span>{t('paymentPage.downloadQR', 'Tải xuống QR')}</span>
