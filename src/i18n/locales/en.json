@@ -263,6 +263,7 @@
       "finalNote": "Please enter the correct information and contact our Customer Service Department at hotline <strong> <a href='tel:+840559322322'>(+84)0559.322.322</a></strong> for more details.</br><strong> Thank you, Valued member!<strong>",
       "noteChange": "Dear members, please DO NOT CHANGE THE TRANSFER CONTENT during the payment process. Thank you!",
       "finalNoteBold": "enter the exact transfer content",
+      "pollingStatus": "Checking payment status...",
       "finalNoteEnd": ". After payment, kindly contact our support team.",
       "scanToPay": "Scan QR to pay",
     "transferContentLabel": "Transfer Content (required):",
