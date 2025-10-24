@@ -40,7 +40,7 @@ const Footer = () => {
         <div className="text-gray-400 mb-8 max-w-2xl mx-auto">
           <div className="mb-3"><span className="text-gray-400">{t('footer.organizer')}</span> <br/><span className="text-xl font-bold">Medicallaw</span></div>
           <div className="mb-3"><span className="text-gray-400">{t('footer.internationalPartner')}</span> <br/><span className="text-xl font-bold">ONEtoONE Corporate Finance</span></div>
-          <div className="mb-3"><span className="text-gray-400">{t('footer.mediaSponsor')}</span> <br/><span className="text-xl font-bold">{t('footer.mediaName')}</span><br/><span className="text-xl font-bold">{t('footer.mediaName1')}</span></div>
+          <div className="mb-3"><span className="text-gray-400">{t('footer.mediaSponsor')}</span> <br/><span className="text-xl font-bold">{t('footer.mediaName')}</span><br/><span className="text-xl font-bold mt-2">{t('footer.mediaName1')}</span></div>
           <div className="mb-3"><span className="text-gray-400">{t('footer.partnerconnect')}</span> <br/><span className="text-xl font-bold">{t('footer.partnerconnectname')}</span></div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-gray-500 text-sm">
